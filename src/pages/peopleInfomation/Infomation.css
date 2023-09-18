@@ -1,0 +1,49 @@
+.row {
+  display: flex;
+  margin-top: 20px;
+}
+.row .col-side {
+  width: 30%;
+}
+.row .col-side .sidebar-sticky {
+  width: 100%;
+}
+.row .col-side .sidebar-sticky .images img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.column p strong {
+  display: block;
+  font-weight: 600;
+}
+.column p {
+  margin: 0 0 20px;
+  font-size: 1em;
+}
+section.facts p.true {
+  margin-bottom: 0;
+}
+section .facts ul li {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+}
+
+.col-main {
+  width: 70%;
+}
+
+.chartjs-size-monitor {
+  padding: 20px;
+}
+.chartjs-size-monitor .title h2 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 2.2rem;
+}
+.chartjs-size-monitor .title h2 a {
+  font-weight: 700;
+  color: #000;
+}

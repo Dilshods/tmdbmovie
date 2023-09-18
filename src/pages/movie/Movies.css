@@ -1,0 +1,126 @@
+.movies_content {
+  display: flex;
+  gap: 30px;
+}
+.movies_content .saidbar {
+  width: 20%;
+}
+
+.movies_content .mainbar {
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* ///saidbar-up/// */
+.movies_content .saidbar .saidbar-up {
+  border: 1px solid #e3e3e3;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: none !important;
+}
+
+.movies_content .saidbar .saidbar-up .nav-sort {
+  padding: 15px;
+  color: black;
+  font-weight: 700;
+}
+.movies_content .saidbar .saidbar-up .sort-select {
+  padding-right: 20px;
+  font-size: 20px;
+}
+/* ///saidbar-down/// */
+.movies_content .saidbar .saidbar-down {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mantine-Radio-inner {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 10px;
+  background-color: lime;
+  border-color: lime;
+}
+.mantine-Checkbox-inner {
+  border: 1px solid rgb(42, 246, 1);
+}
+.mantine-Checkbox-inner {
+  background-color: rgb(42, 246, 1);
+  color: #fff;
+  border-color: lime;
+}
+.mantine-Checkbox-inner {
+  border-radius: 0.25rem;
+  margin: 0;
+  padding: 0;
+  width: 1rem;
+  height: 1rem;
+  line-height: initial;
+  border-width: 1px;
+  border-style: solid;
+  outline: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  appearance: none;
+}
+.checkbox {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.catbox_container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.catopshin {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(30, 255, 0);
+}
+.catbox_container a {
+  color: black;
+}
+.catopshin:hover {
+  background-color: rgb(30, 255, 0);
+}
+.play-btn {
+  width: 100%;
+  text-align: center;
+}
+.play-btn button {
+  background-color: rgb(30, 255, 0);
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+.play-btn button:hover {
+  color: black;
+}
+.Search-btn {
+  margin-top: 20px;
+}
+.Search-btn button {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.Search-btn button:hover {
+  background-color: rgb(9, 255, 0);
+  color: #fff;
+}

@@ -1,0 +1,199 @@
+.movies-trading-container {
+  box-sizing: border-box;
+  margin: 0;
+}
+.trading {
+  background-image: url("https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg");
+  background-position: 50% 220px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.trading_overflow {
+  width: 100%;
+  overflow: auto;
+}
+
+.movies-trading-container .trading-content {
+  width: 100%;
+}
+.trading-content .trading-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 30px;
+}
+.trading-section {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.trading-header h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 40px;
+}
+
+.selector {
+  align-items: stretch;
+  border: 1px solid rgba(3, 37, 65, 1);
+  border-radius: 30px;
+}
+.selector h3 a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.selector {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 39px;
+}
+.anchor {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.selector h3 {
+  font-size: 1em;
+  padding: 11px 20px;
+  margin: 0;
+  white-space: nowrap;
+}
+.selected h3 a {
+  background: linear-gradient(to right, #c0fecf 0, #1ed5a9 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.selector .background {
+  z-index: -1;
+  background: rgba(3, 37, 65, 1);
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: left 0.25s;
+}
+
+.trading-card img {
+  width: 150px;
+  min-width: 150px;
+  border-radius: 10px;
+}
+.trading-card img:hover {
+  transform: scale(1.05);
+}
+
+.trading-title a {
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  color: #000;
+}
+.trading-title a:hover {
+  color: rgb(5, 228, 1);
+}
+.circular-homepage {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -30px;
+}
+.trading-title {
+  position: relative;
+}
+
+/* Latest Triller */
+.Latest-containe-url {
+  width: 100%;
+}
+.latest-btn {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 40px;
+}
+.latest-btn h4 {
+  color: aliceblue;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 40px;
+}
+.latest-img-content {
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+  padding: 20px 0px 0px 40px;
+}
+.latest-img-content .images_page img {
+  border-radius: 10px;
+  width: 290px;
+}
+.latest-img-content .images_page img:hover {
+  transform: scale(1.05);
+}
+.latest-title {
+  text-align: center;
+}
+.latest-title a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.latest-title p {
+  color: #fff;
+  font-weight: 500;
+}
+.anchortv {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.selectortv {
+  align-items: stretch;
+  border: 1px solid rgb(30, 213, 169);
+  border-radius: 30px;
+}
+.selectortv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 35px;
+}
+.selectedTv h3 a {
+  background: linear-gradient(to right, #040b06 0, #020f0c 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.anchortv h3 a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.selectortv .backgroundtv {
+  z-index: -1;
+  background: linear-gradient(to right, #c0fecf 0, #1ed5a9 100%);
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: left 0.25s;
+}
+.selectortv h3 {
+  font-size: 1em;
+  padding: 9px 20px;
+  margin: 0;
+  white-space: nowrap;
+}

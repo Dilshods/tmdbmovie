@@ -1,0 +1,69 @@
+.movie {
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+  border: 0;
+  box-shadow: none;
+  margin-top: 0;
+  overflow: visible;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.movie-image {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  min-height: calc(150px * 1.5);
+  height: calc(300px * 1.5);
+  background: #dbdbdb;
+  overflow: hidden;
+}
+.movie img {
+  border-radius: 20px;
+  width: 227px;
+}
+.options {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 4;
+  opacity: 0.6;
+}
+.glyphicons_v2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1em;
+  min-height: 1em;
+  width: 1em;
+  height: 1em;
+  line-height: inherit;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: inherit;
+  box-sizing: border-box;
+}
+.movie-content {
+  width: 100%;
+  padding: 26px 10px 12px;
+  position: relative;
+  white-space: normal;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.movie-content h2 {
+  font-size: 1em;
+  margin: 0;
+  width: 100%;
+  word-wrap: normal;
+  overflow-wrap: break-word;
+}

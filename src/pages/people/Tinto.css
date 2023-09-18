@@ -1,0 +1,27 @@
+.tinto-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.tinto-box .tinto-img {
+  width: 235px;
+}
+.tinto-box .tinto-img .image {
+  width: 235px;
+  height: 235px;
+}
+.tinto-box .tinto-img .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.tinto-title h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.tinto-title h2 a {
+  color: black;
+}
+.tinto-title h2 a:hover {
+  color: rgb(2, 247, 6);
+}

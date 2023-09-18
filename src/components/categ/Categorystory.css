@@ -1,0 +1,37 @@
+.catebox {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 161px;
+}
+.catebox .catimage {
+  width: 100%;
+  border-radius: 8px;
+}
+.catebox .catimage img {
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
+.catebox .cattitle {
+  width: 100%;
+  padding: 26px 10px 20px;
+  white-space: normal;
+  position: relative;
+}
+.catebox .cattitle p {
+  font-size: 1em;
+  width: 100%;
+}
+.cattitle a {
+  color: black;
+  font-weight: 700;
+}
+.cattitle a:hover {
+  color: rgb(0, 255, 0);
+}
+
+.cattitle .progresbar {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -25px;
+}

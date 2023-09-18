@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.modal-box {
+  display: flex;
+  gap: 20px;
+  width: 55rem;
+}
+.modal-box img {
+  height: 668px;
+}
+.modaltitle {
+  width: 40%;
+  margin-top: 150px;
+}
+.modaltitle .modal-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.modal-icon a {
+  color: black;
+  font-size: 30px;
+}
+.modal-info {
+  border-bottom: 1px solid #e3e3e3;
+}
+.modal-info h4 {
+  display: flex;
+  justify-content: space-between;
+}
+.main-title p {
+  margin-bottom: 20px;
+}
+.modal_btn {
+  font-size: 20px;
+  background: none !important;
+}
+.modal_btn span {
+  margin-left: 10px;
+}
